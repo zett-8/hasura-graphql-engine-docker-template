@@ -31,6 +31,8 @@ services:
       - "8080:8080"
     volumes:
       - ./hasura:/hasura
+      - ./hasura/migrations:/hasura-migrations
+      - ./hasura/metadata:/hasura-metadata
     depends_on:
       - postgres
     restart: always
