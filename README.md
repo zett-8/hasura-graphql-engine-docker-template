@@ -5,6 +5,24 @@
 docker-compose up
 ```
 
+## Endpoint
+```text
+http://<base_url>/v1/graphql
+```
+(e.g.)   
+local:
+http://localhost:8080/v1/graphql  
+prod:
+https://user-server-url/v1/graphql
+
+## Open console
+```shell
+cd hasura/
+make console
+```
+
+now console is running on **http://localhost:9695/**
+
 ## Commands
 migration
 ```shell
@@ -16,15 +34,6 @@ seeding
 cd hasura/
 make seed
 ```
-
-## Open console
-```shell
-cd hasura/
-make console
-```
-
-now console is running on **http://localhost:9695/**
-
 
 ## Enable auto migration
 1. use the certain image
