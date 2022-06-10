@@ -12,6 +12,7 @@ ARG HASURA_GRAPHQL_DEV_MODE="false"
 ARG HASURA_GRAPHQL_ENABLE_CONSOLE="false"
 # must be set for production
 ARG HASURA_GRAPHQL_ADMIN_SECRET=""
+# it should be postgresql://<username>:<password>@localhost/<database>?host=/cloudsql/<project_id>:<region>:<sql_name>
 ARG HASURA_GRAPHQL_DATABASE_URL=""
 ARG HASURA_GRAPHQL_METADATA_DATABASE_URL=""
 
