@@ -5,6 +5,19 @@
 docker-compose up
 ```
 
+## Commands
+migration
+```shell
+cd hasura/
+make migrate
+```
+seeding
+```shell
+cd hasura/
+make seed
+```
+
+
 ## Enable auto migration
 1. use the certain image
 ```text
