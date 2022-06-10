@@ -5,7 +5,7 @@
 docker-compose up
 ```
 
-## Endpoint
+## Graphql endpoint
 ```text
 http://<base_url>/v1/graphql
 ```
