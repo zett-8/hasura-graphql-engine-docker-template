@@ -29,6 +29,8 @@ services:
 
     ports:
       - "8080:8080"
+      - "9693:9693"
+      - "9695:9695"
     volumes:
       - ./hasura:/hasura
       - ./hasura/migrations:/hasura-migrations

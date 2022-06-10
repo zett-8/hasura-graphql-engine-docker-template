@@ -17,6 +17,14 @@ cd hasura/
 make seed
 ```
 
+## Open console
+```shell
+cd hasura/
+make console
+```
+
+now console is running on **http://localhost:9695/**
+
 
 ## Enable auto migration
 1. use the certain image
