@@ -34,3 +34,4 @@ services:
     depends_on:
       - postgres
     restart: always
+    entrypoint: ./start.sh
