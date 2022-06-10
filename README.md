@@ -26,7 +26,7 @@ hasura/graphql-engine:v2.7.0.cli-migrations-v3
 
 2. mount migrations/ and metadata/ on specific directly
 ```dockerfile
-Dockerfile
+# Dockerfile
 
 COPY ./migrations /hasura-migrations
 COPY ./metadata /hasura-metadata
