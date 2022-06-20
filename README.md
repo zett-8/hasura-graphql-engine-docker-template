@@ -13,7 +13,7 @@ http://<base_url>/v1/graphql
 local:
 http://localhost:8080/v1/graphql  
 prod:
-https://<YOUR-SERVER-URL>/v1/graphql
+https://\<YOUR-SERVER-URL>/v1/graphql
 
 ## Open console
 ```shell
