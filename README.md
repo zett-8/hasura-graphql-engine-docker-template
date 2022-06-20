@@ -36,7 +36,7 @@ make seed
 ```
 
 ## Enable auto migration
-1. use the certain image
+1. use cli-migration image
 ```text
 hasura/graphql-engine:v2.7.0.cli-migrations-v3
 ```
